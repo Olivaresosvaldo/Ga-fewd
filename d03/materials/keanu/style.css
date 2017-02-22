@@ -2,3 +2,31 @@ h1 {
 	color: green;
 	font-size: 50px;
 }
+
+
+p#first {
+
+	color: purple;
+}
+
+p.second{
+
+color:green;
+
+}
+
+p#third{
+
+	color:black;
+}
+
+p#flavor{
+	background-color:blue; 
+	
+}
+
+p#finally{
+
+color:red;
+
+}
