@@ -1,0 +1,42 @@
+h1 {
+	
+	background-color:black;
+	height: 200;
+	width: 100;
+	color:white;
+	font-size: 15px;
+	text-align: center;
+}
+
+div{
+
+	background-color: #D3D3D3;
+	width: 750px;
+	margin: 0 auto;
+	padding:20px;
+	font-style: italic;
+
+}
+
+.first {
+	color:#8B008B;
+	background-color: #FF4500;
+	text-align: center;
+}
+
+
+.second{
+	background-color: #FF4500;
+	text-align: center;
+	color: red;
+
+}
+
+.third{
+
+background-color: #FF4500;
+text-align: center;
+color: yellow;
+
+}
+
