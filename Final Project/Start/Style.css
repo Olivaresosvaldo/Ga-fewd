@@ -1,0 +1,31 @@
+.nav{
+  width: 100%;
+  background-color: black;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+body{
+
+	font-size: 20px;
+ 	color:black;
+
+}
+
+
+
+a{
+	display: inline-block;
+	text-decoration:none;
+	padding: 20px;
+	color:white;
+
+}
+
+a:hover{
+	background-color:#ff7401;
+
+}

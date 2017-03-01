@@ -1,0 +1,38 @@
+.red-box {
+  height: 130px;
+  width: 600px;
+  background-color: blue;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+body{
+
+	background-color:#A1D490;
+}
+
+h1{
+
+	font-family: 'Amiko', sans-serif;
+font-family: 'Baloo', cursive;
+font-family: 'Sansita', sans-serif;
+}
+
+
+span.years{
+
+	color: red;
+	font-style: italic;
+}
+
+.red-box2{
+
+	 height: 130px;
+  width: 600px;
+  background-color: blue;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;	
+}
