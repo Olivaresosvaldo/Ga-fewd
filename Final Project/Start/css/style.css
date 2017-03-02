@@ -1,4 +1,49 @@
-body {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 20px;
+h1{
+font-family: 'Amiko', sans-serif;
+font-family: 'Baloo', cursive;
+font-family: 'Sansita', sans-serif;
+font-family: 'Pacifico', cursive;
+
+}
+
+
+.nav{
+  width: 100%;
+  background-color: black;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+
+
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+ 	color:black;
+  background-color:#25FADE;
+
+}
+
+img{
+height:90px;  
+  display: inline-block;
+  margin-top:20px;
+  padding:20px;
+}
+
+a{
+	display: inline-block;
+	text-decoration:none;
+	padding: 20px;
+	color:white;
+
+}
+
+a:hover{
+	background-color:#2118D6;
+
 }
