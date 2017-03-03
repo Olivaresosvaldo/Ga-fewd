@@ -3,6 +3,8 @@ font-family: 'Amiko', sans-serif;
 font-family: 'Baloo', cursive;
 font-family: 'Sansita', sans-serif;
 font-family: 'Pacifico', cursive;
+padding: 10px;
+display: inline-block;
 
 }
 
@@ -17,7 +19,14 @@ font-family: 'Pacifico', cursive;
   display: inline-block;
 }
 
+.social{
 
+margin: 10px;
+margin-left:250px;
+padding: 100px;
+padding-left: 300px;
+
+}
 
 
 body{
@@ -32,7 +41,8 @@ img{
 height:90px;  
   display: inline-block;
   margin-top:20px;
-  padding:20px;
+  padding-top:20px;
+  padding-left: 15px;
 }
 
 a{
