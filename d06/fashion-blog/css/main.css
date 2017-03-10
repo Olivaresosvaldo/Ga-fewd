@@ -5,9 +5,8 @@ h1{
 	font-weight: 3px;
 }
 
-#main{
-
-
+.container {
+  width: 720px;
 }
 
 .nav{

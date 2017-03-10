@@ -1,0 +1,10 @@
+body {
+	width: 100%;
+}
+
+
+.grid div {
+	background: grey;
+	height: 200px;
+}
+
