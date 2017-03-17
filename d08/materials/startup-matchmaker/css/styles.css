@@ -48,6 +48,41 @@
 		color: yellow;
 		padding-left: 20px;
 		font-family: "Merriweather";
+  }
+
+  .buttontwo{
+height: 40px;
+width: 200px;
+background-color: #BEBEBE;
+opacity:100;
+text-align: center;
+border-radius: 5px;
+box-shadow: 0px 2px 0px 0px grey;
+margin-bottom: 40px;
+padding-top: 10px;
+
+  }
+.buttons{
+
+height: 40px;
+width: 500px;
+background-color: #BEBEBE;
+text-align: center;
+border-radius: 5px;
+box-shadow: 0px 2px 0px 0px grey;
+margin-bottom: 40px;
+text-decoration: none;
+font-size: 18px;
+
+}
+
+.bordergrid{
+
+  border-right: grey 3px;
+
+}
+
+
 
 	}
 
