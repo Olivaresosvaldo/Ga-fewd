@@ -1,0 +1,31 @@
+h1{
+color:white;
+}
+
+h3{
+  color: white;
+}
+
+
+.grid-pad{
+  padding-top: 1px;
+  background-color: black;
+}
+
+button{
+
+  padding:10px;
+  font-size: 25px;
+}
+
+
+.right{
+padding-top: 20px;
+padding-left: 350px;
+}
+
+a{
+  color: white;
+}
+
+
