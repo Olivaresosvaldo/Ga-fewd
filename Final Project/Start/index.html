@@ -1,40 +1,81 @@
 <!DOCTYPE html>
-<html>
-	<head>
-	  <title>La Barca Home </title>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>La Barca Restaurant</title>
+  <link rel="stylesheet" type="text/css" href="css/simple-grid.css">
+  <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Amiko|Baloo|Pacifico|Sansita" rel="stylesheet">
+</head>
+<body>
 
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
-		<link href="https://fonts.googleapis.com/css?family=Amiko|Baloo|Pacifico|Sansita" rel="stylesheet">
-	</head>
-
-	<body>
-<h1>La Barca Restaurant</h1>
-<img src="./barca-logo.png">
-
-
-<div class="social">
-	<a id="email" href="#">Email</a>
-
-	<a id="Instagram" href="#">Instagram</a>
-
-	<a id="Facebook" href="#">Pininterest</a>
+<div class="grid">
+  <div class="col-1-2">
+     <div class="name">
+         <h1>La Barca Restuarant</h1> <img id="logo" src="pictures/barca-logo.png"></a>
+     </div>
+  </div>
+  <div class="col-1-2">
+    <div class="social">
+      <a id="Facebook" href="https://www.facebook.com/labarcarestaurantnyc/" target="_blank"><img src = "pictures/facebook.svg"></a>
+      <a id="Instagram" href="https://www.instagram.com/labarcarestaurantnyc/" target="_blank"><img src = "pictures/instagram.png"></a>
+      <a id="Yelp" href="https://www.yelp.com/biz/la-barca-restaurant-new-york" target="_blank"><img src = "pictures/yelp.svg"></a>
+    </div>
+  </div>
 </div>
 
-		<div class="nav">
-			<a href="#">Home</a>
-	    <a href="#">About</a>
-	    <a href="#">Order Online</a>
-	    <a href="#">Services</a>
-	    <a href="#">Contact Us</a>
-		</div>
+<div class="grid">
+    <div class="col-1-1">
+       <div class="left">
+          <div class="bar"> <a href="./index.html">Home</a> </div>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Order Online</button>
+      <div class="dropdown-content" id="myDropdown">
+        <a href="#">Map</a>
+        <a href="#">Order Online</a>
+        <a href="#">Info</a>
+      </div>
+  </div>
+           <div class="bar"> <a href="./promo.html">Promo</a> </div>
+	    		 <div class="bar"> <a href="./menu.html">Menu</a> </div>
+	   			 <div class="bar"> <a href="./employment.html">Employment</a> </div>
+	   			 <div class="bar"> <a href="./contact.html">Contact Us</a> </div>
+       </div>
+    </div>
+</div>
 
 
-		
+<div class="grid">
+  <div class="col-1-1">
+    <div class="owl-carousel owl-theme">
+        <img class="owl" src="pictures/owlpictures/chicha.jpg">
+        <img class="owl" src="pictures/owlpictures/golpes.jpg">
+        <img class="owl" src="pictures/owlpictures/salmon.jpg">
+    </div>
+  </div>
+</div>
+
+<div class="grid">
+  <div class="col-1-1">
+    <h2> Our History</h2>
+    <p> The Fast and the Furious (also known as Fast & Furious) is an American franchise based on a series of action films that is largely concerned with illegal street racing and heists, and includes material in various other media that depict characters and situations from the films. Distributed by Universal Pictures, the series was established with the 2001 film titled The Fast and the Furious; this was followed by seven sequels, two short films that tie into the series, and as of May 2015, it has become Universal's biggest franchise of all time. Falling for Dominic's younger sister, Mia Toretto (Jordana Brewster), Brian later confesses to her his status as an undercover police officer and convinces her to come with him to save her brother and his friends from the truck drivers, who have now armed themselves to combat the robberies. He tracks Dominic's location by triangulating his cell phone signal and they arrive at the hijacking in-progress to find Letty, badly injured at the car accident, and Vince critically wounded, having lacerated his arm and been shot by the truck driver. Brian and Mia work together with Dominic, Leon and Letty to rescue Vince. Brian then makes the difficult decision to blow his cover to the crew by phoning in for a medivac. The revelation enrages Dominic, fleeing with Leon, Letty, and Mia as the medivac arrives for Vince.</p>
+  </div>
+</div>
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous">  
+  </script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/my.js"></script>
 
 
-		
-
-
-		
-	</body>
+	<footer>
+	<small>©2017 Barca Restaurant, Inc. | </small>
+	<small> Pagina en Español</small>
+	</footer>
+</body>
 </html>
